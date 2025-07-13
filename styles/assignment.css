@@ -198,3 +198,42 @@ main{
     border-radius: 20px;
     margin-top: 20px;
 }
+
+/* from-section style */
+
+.from-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 71px;
+    margin: 92px 150px;
+}
+.from-section h1{
+    font-weight: bold;
+    font-size: 97px;
+
+}
+.from-section form label{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.from-section form .inp-box{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+.from-section form textarea{
+    height: 120px; 
+    line-height: 20px; 
+    resize: vertical; 
+}
+form .btn{
+    width: 100%;
+    padding: 19px;
+    margin-top: 19px;
+}
